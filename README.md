@@ -87,6 +87,8 @@ poetry run python src/server.py
 
 ## 🧠 Demo
 
+https://github.com/user-attachments/assets/27a8e5ee-8f2f-40c7-bdfc-1caa93767efb
+
 ## Project Structure
 
 ```
