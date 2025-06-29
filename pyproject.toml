@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "google-calendar-mcp-server"
+version = "0.1.0"
+description = "MCP Server for Google calendar APIs"
+authors = ["Soham Kapileshwar"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = {extras = ["standard"], version = "^0.34.2"}
+google-api-python-client = "^2.170.0"
+google-auth-oauthlib = "^1.2.2"
+httpx = "^0.28.1"
+itsdangerous = "^2.2.0"
+mcp = {extras = ["cli"], version = "^1.9.4"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
